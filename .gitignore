@@ -1,0 +1,17 @@
+# OS noise
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Editor / tooling
+.vscode/
+.idea/
+
+# Local secrets - never commit
+*.secret
+*.creds
+.env
+
+# Build / dev artifacts
+node_modules/
+*.log
